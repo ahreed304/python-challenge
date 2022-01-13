@@ -7,8 +7,8 @@ csv_path = os.path.join(project_root, 'Resources', 'budget_data.csv')
 
 # Initialize variables.
 profit_total = 0
-profit_greatest_increase = {"value": 0, "month": ""}
-profit_greatest_decrease = {"value": 0, "month": ""}
+profit_greatest_increase = {'value': 0, 'month': ''}
+profit_greatest_decrease = {'value': 0, 'month': ''}
 profit_change_sum = 0
 
 # Read file and calculate statistics.
@@ -40,13 +40,13 @@ with open(csv_path,'r') as file:
 profit_change_average = profit_change_sum/i
 
 # Format results.
-results_formatted = "Financial Analysis\n" \
-    f"----------------------------\n" \
-    f"Total Months: {i + 1}\n" \
-    f"Net Profit: ${profit_total}\n" \
-    f"Average Change: {profit_change_average:.2f}\n" \
-    f"Greatest Increase in Profits: {profit_greatest_increase['month']} (${profit_greatest_increase['value']})\n" \
-    f"Greatest Decrease in Profits: {profit_greatest_decrease['month']} (${profit_greatest_decrease['value']})\n"
+results_formatted = 'Financial Analysis\n' \
+    f'----------------------------\n' \
+    f'Total Months: {i + 1}\n' \
+    f'Net Profit: ${profit_total}\n' \
+    f'Average Change: {profit_change_average:.2f}\n' \
+    f'Greatest Increase in Profits: {profit_greatest_increase["month"]} (${profit_greatest_increase["value"]})\n' \
+    f'Greatest Decrease in Profits: {profit_greatest_decrease["month"]} (${profit_greatest_decrease["value"]})\n'
 
 # Print results to console and write to file.
 print(results_formatted)

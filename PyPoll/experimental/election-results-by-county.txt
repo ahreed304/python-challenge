@@ -1,0 +1,59 @@
+=========================
+Election Results
+=========================
+Total
+            votes  percentage
+Khan      2218231   63.000011
+Correy     704200   19.999994
+Li         492940   13.999996
+O'Tooley   105630    2.999999
+
+Winner: Khan
+=========================
+Results by County
+-------------------------
+Marsh County
+            votes  percentage
+Khan      1427142   62.981866
+Correy     453015   19.992215
+Li         317651   14.018404
+O'Tooley    68149    3.007515
+
+Winner: Khan
+-------------------------
+Queen County
+           votes  percentage
+Khan      439494   63.036734
+Correy    139554   20.016265
+Li         97305   13.956480
+O'Tooley   20850    2.990521
+
+Winner: Khan
+-------------------------
+Bamoo County
+           votes  percentage
+Khan      219834   63.051472
+Correy     69752   20.005851
+Li         48639   13.950347
+O'Tooley   10433    2.992331
+
+Winner: Khan
+-------------------------
+Trandee County
+          votes  percentage
+Khan      65939   63.028953
+Correy    20824   19.904987
+Li        14741   14.090444
+O'Tooley   3113    2.975616
+
+Winner: Khan
+-------------------------
+Raffah County
+          votes  percentage
+Khan      65822   62.947803
+Correy    21055   20.135608
+Li        14604   13.966299
+O'Tooley   3085    2.950290
+
+Winner: Khan
+-------------------------
