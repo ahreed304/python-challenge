@@ -1,5 +1,4 @@
 import os
-from itertools import chain
 import pandas as pd
 
 project_root = os.path.dirname(os.path.dirname(__file__))
