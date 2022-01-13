@@ -2,7 +2,7 @@ import os
 from itertools import chain
 import pandas as pd
 
-project_root = os.path.dirname(__file__)
+project_root = os.path.dirname(os.path.dirname(__file__))
 csv_path = os.path.join(project_root, "Resources", "election_data.csv")
 ballots_df = pd.read_csv(csv_path)
 

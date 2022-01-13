@@ -2,7 +2,8 @@ import os
 import json
 from csv import DictReader
 
-project_root = os.path.dirname(__file__)
+
+project_root = os.path.dirname(os.path.dirname(__file__))
 csv_path = os.path.join(project_root, "Resources", "election_data.csv")
 
 results = {}
@@ -23,10 +24,6 @@ with open(csv_path,'r') as file:
             results_by_county[county][candidate] = {'votes': 0, 'percentage': 0.00}
         results_by_county[county][candidate]['votes'] += 1
 
-        # county = row['County']
-        # if county not in results[candidate]['by_county']:
-        #     results[candidate]['by_county'][county] = {'votes': 0, 'percentage': 0.00}
-        # results[candidate]['by_county'][county]['votes'] += 1
 
 total_votes = sum([results[candidate]['votes'] for candidate in results])
 for candidate in results:
